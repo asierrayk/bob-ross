@@ -1,4 +1,4 @@
-d3.csv("bob_ross_paintings.csv").then(function(data) {
+d3.csv("./bob_ross_paintings.csv").then(function(data) {
     var index = Math.floor(Math.random() * data.length); 
     var row = data[index]
 
